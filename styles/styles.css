@@ -1,0 +1,109 @@
+ *,
+ *::after,
+ *::before {
+     box-sizing: border-box;
+ }
+
+ body {
+     background-image: url(../images/achtergrond.png);
+     background-repeat: repeat;
+     font-family: 'Raleway', sans-serif;
+
+ }
+
+ header img {
+     width: 20em;
+     padding: 3em;
+     position: relative;
+     float: right;
+ }
+
+ #header-background {
+     padding: none;
+     margin: none;
+     background: url(../images/menubalk.svg);
+     width: 100%;
+     height: 30em;
+     ;
+     background-repeat: no-repeat;
+
+ }
+
+ main {
+     padding: 2.5em;
+ }
+
+
+ h1 {
+     font-size: 8em;
+     padding-left: .5em;
+     position: relative;
+     top: -2.5em;
+ }
+
+ main div:nth-of-type(1) {
+     background-color: #6a2874;
+     height: 60px;
+     width: 20%;
+     left: -18em;
+     margin: auto;
+     position: relative;
+     top: -16em;
+     border-radius: 30px;
+     z-index: 1;
+
+ }
+
+ main div:nth-of-type(2) {
+     background-color: lightgray;
+     height: 60px;
+     width: 85%;
+     margin: auto;
+     position: relative;
+     top: -19.5em;
+     border-radius: 30px;
+
+ }
+
+
+
+ main p {
+     position: relative;
+     top: -10em;
+     padding: 2.5em;
+     font-weight: 600;
+     font-size: 2em;
+ }
+
+
+ form {
+     font-size: 2.5em;
+     padding: 2.5em;
+     margin-top: -10em;
+     width: 100%;
+ }
+
+ label {
+     display: inline-block;
+     margin-top: .5em;
+     width: 100%;
+
+ }
+
+ input[type='radio'] {
+     transform: scale(3);
+     float: left;
+     clear: none;
+     margin: 1px 0 0 2px;
+
+ }
+
+
+ a {
+     text-decoration: none;
+     color: white;
+     background-color: #6a2874;
+     padding: 1.5em;
+     display: block;
+     text-align: center;
+ }
